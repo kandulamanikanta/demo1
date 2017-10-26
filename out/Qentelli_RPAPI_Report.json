@@ -1,0 +1,44 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "id": "rpapi-soap-testing;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 6,
+            "name": "SOAP request is sent for the operation GetCitiesByCountry for the country IND",
+            "match": {
+              "location": "test.soap_request_is_sent_for_the_operation_GetCitiesByCountry_for_the_country_IND()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 7,
+            "name": "the response should have the expected value.",
+            "match": {
+              "location": "test.the_response_should_have_the_expected_value()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "RPAPI SOAP Testing",
+    "description": "",
+    "id": "rpapi-soap-testing",
+    "keyword": "Feature",
+    "uri": "src/test/java/soap/demo/features/Test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@PoC_and_Demo"
+      }
+    ]
+  }
+]
